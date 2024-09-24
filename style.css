@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(245, 218, 184);
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+h2{
+    color: darkgreen;
+}
+.formulario{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+.formulario_input{
+    margin: 15px;
+    padding: 10px;
+    width: 50%;   
+}
+.formulario_submit{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 50%;
+    background-color: yellow;
+    padding: 10px;
+    cursor: pointer;
+}
+table, th, td{
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table{
+    margin-top: 10px;
+
+}
+.pagination-container {
+    margin-top: 10px;
+}
+
+.pagination-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: rgb(255, 255, 255);
+    border:rgb(245, 218, 184);
+    cursor: pointer;
+}
+
+.pagination-btn.active {
+    background-color: rgb(255, 184, 184);
+    font-weight: bold;
+}

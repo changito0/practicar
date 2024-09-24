@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>    
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenidos</h1>
+        <form onsubmit="addInfo(event)" class="formulario">
+            <input id="name" class="formulario_input" type="text" placeholder="Ingrese Nombre">
+            <input id="lastName" class="formulario_input" type="text" placeholder="Ingrese Apellido">
+            <input id="dni" class="formulario_input" type="text" placeholder="Ingrese Dni">
+            <button type="submit" class="formulario_input formulario_submit" id="agregar">Agregar</button>
+            <h2>Personas Agregadas:</h2>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Ingrese Nombre"/>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Dni</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <div id="pagination" class="pagination-container"></div>
+        </form>
+    </div>    
+</body>
+</html>
